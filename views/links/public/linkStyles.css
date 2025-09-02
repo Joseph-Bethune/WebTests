@@ -1,0 +1,40 @@
+
+#links{
+    border: 5px solid black;
+    border-radius: 5px;
+    width: fit-content;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+}
+
+#links a{
+    text-decoration: none;
+}
+
+.linkButton{
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.linkButton>h2{
+    margin: 0;
+}
+
+.linkButton{
+    background-color: transparent;
+    color: black;    
+}
+
+.linkButton:hover{
+    background-color: black;
+    color: white;
+}
+
+#linkList{
+    display: none;
+}
