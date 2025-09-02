@@ -6,6 +6,7 @@ import os from 'os';
 
 const __dirname = path.dirname(fileURLToPath.fileURLToPath(import.meta.url));
 const port = 8080;
+
 const serverIpAddress = '0.0.0.0';
 const app = express();
 
